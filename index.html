@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashika Malik | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #334155;
+        }
+
+        header h2 {
+            color: #38bdf8;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        section {
+            padding: 65px 8%;
+        }
+
+        .hero {
+            min-height: 65vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .hero p {
+            color: #38bdf8;
+            margin-bottom: 12px;
+        }
+
+        h1 {
+            font-size: clamp(36px, 6vw, 60px);
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            max-width: 600px;
+            color: #cbd5e1;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 12px 22px;
+            background: #38bdf8;
+            color: #0f172a;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            width: fit-content;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 24px;
+            border-radius: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #334155;
+        }
+
+        .card p {
+            color: #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+            border-top: 1px solid #334155;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Yashika Malik</h2>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <p>BCA Data Science Student</p>
+
+        <h1>Hi, I'm Yashika.<br>
+            I turn data into insights.</h1>
+
+        <div class="description">
+            I'm learning data analytics, Python and machine learning.
+            I enjoy exploring data and building projects that solve
+            real-world problems.
+        </div>
+
+        <a class="button" href="#projects">Explore My Work</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="card">
+            <p>
+                I'm a BCA Data Science student at Chandigarh University,
+                developing my skills in data analysis, programming and
+                artificial intelligence. My goal is to turn what I learn
+                into practical projects and meaningful insights.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills I'm Developing</h2>
+
+        <div class="card">
+            <p>Python · SQL · Data Analytics · Machine Learning</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="card">
+            <h3>AI Medical Assistant</h3>
+            <p>
+                Exploring how AI and language technologies can support
+                access to medical information.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>Gmail Email Analyzer</h3>
+            <p>
+                Developing a Python project to analyze email data
+                and explore useful patterns.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Connect</h2>
+
+        <div class="card">
+            <p>Interested in data, technology and learning through projects.</p>
+            <a class="button"
+               href="https://github.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Visit GitHub
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Yashika Malik | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
